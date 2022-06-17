@@ -1,0 +1,27 @@
+.rbc-overlay {
+  height: auto !important;
+}
+
+.calendar-toolbar-container {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  margin-bottom: 1rem !important;
+}
+
+.calendar-toolbar-label {
+  font-size: 2rem !important;
+}
+
+.calendar-toolbar-btn,
+.calendar-toolbar-btn:focus,
+.calendar-toolbar-btn:hover {
+  background-color: white !important;
+  color: #343d46 !important;
+  border: 1px solid #dae0e5 !important;
+  border-radius: 3px !important;
+  padding: 0.7rem !important;
+  cursor: pointer !important;
+  width: 6rem !important;
+}
